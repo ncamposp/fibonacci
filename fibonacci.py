@@ -6,13 +6,11 @@ def fibonacci (x):
     return 1
   else:
     return fibonacci(x-1) + fibonacci(x-2)
-
 def factorial(x):
   if x == 0:
     return 1
   else:
     return x * factorial(x-1)
-
 def test_fib():
   assert fibonacci(0) == 0
   assert fibonacci(1) == 1
